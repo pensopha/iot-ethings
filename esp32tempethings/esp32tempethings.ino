@@ -71,7 +71,7 @@ void mqttconnect() {
     /* client ID */
     String clientId = "putyournamehere";
     /* connect now */
-    if (client.connect("putyournamehere", "pat", "mqttpat" )) {
+    if (client.connect("putyournamehere", "testethings", "passethings" )) {
       Serial.println("connected");
       /* subscribe topic with default QoS 0*/
       
